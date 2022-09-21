@@ -9,7 +9,31 @@
     --indexcolor: #ffffff;
     --colorp: #757575;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
 
+ul,
+ol {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+button {
+    cursor: pointer;
+}
+address {
+    font-style: normal;
+}
 body {
     font-family: var(--mainfont);
     color: var(--maincolor);
@@ -17,6 +41,7 @@ body {
     letter-spacing: 0.03em;
     font-size: 14px;
 }
+
 
 .visually-hidden {
     position: absolute;
@@ -31,13 +56,6 @@ body {
     margin: -1px;
 }
 
-.list {
-    list-style: none;
-}
-
-.link {
-    text-decoration: none;
-}
 
 .section-title {
     font-size: 36px;
@@ -215,7 +233,6 @@ body {
 .adress {
     line-height: 1.71;
     color: var(--indexcolor);
-    font-style: normal;
 }
 
 .contacts {
