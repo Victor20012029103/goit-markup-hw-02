@@ -41,7 +41,7 @@ body {
 
 .section-title {
     font-size: 36px;
-    text-align: center;.
+    text-align: center;
     line-height: 1.67;
 }
 
@@ -225,7 +225,7 @@ body {
 .contact-link:hover,
 .contacts:hover,
 .contact-link:focus,
-.contacts:focus,
+.contacts:focus
  {
     color: var(--accentcolor)
 }
